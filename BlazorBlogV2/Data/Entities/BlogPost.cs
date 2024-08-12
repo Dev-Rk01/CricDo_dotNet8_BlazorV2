@@ -27,7 +27,7 @@ namespace BlazorBlogV2.Data.Entities
 
 		public bool IsPublished { get; set; }
 
-		public int ViewCount { get; set; }
+		public long ViewCount { get; set; }
 		public bool IsFeatured { get; set; }
 		public DateTime CreatedAt { get; set; }
 		public DateTime? PublishedAt { get; set; }
